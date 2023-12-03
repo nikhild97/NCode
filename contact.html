@@ -1,0 +1,121 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Coding Adda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x-square" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="file:///C:/Users/HP/Desktop/Webpage/index.html">HOME</a>
+                    <li><a href="file:///C:/Users/HP/Desktop/Webpage/about.html">ABOUT</a>
+                    <li><a href="file:///C:/Users/HP/Desktop/Webpage/course.html">COURSE</a>
+                    <li><a href="file:///C:/Users/HP/Desktop/Webpage/blog.html">BLOG</a>
+                    <li><a href="file:///C:/Users/HP/Desktop/Webpage/contact.html">CONTACT</a>        
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact</h1>    
+    </section>
+
+<!--------------------- Contact --------------------->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238130.1544117531!2d78.90769524653476!3d21.16100604721769!
+    2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0a5a31faf13%3A0x19b37d06d0bb3e2b!2sNagpur%2C%20Maharashtra!5e0!3m2!1
+    sen!2sin!4v1701529937280!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="bi bi-house"></i>
+                <span>
+                    <h5>XYZ Road, ABC Building</h5>
+                    <p>Nagpur, Maharashtra</p>
+                </span>
+            </div>      
+            <div>
+                <i class="bi bi-phone"></i>
+                <span>
+                    <h5>+91 1234567890</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>  
+            </div>
+            <div>
+                <i class="bi bi-envelope"></i>
+                <span>
+                    <h5>codingadda@tutorial.com</h5>
+                    <p>Email us on query</p>
+                </span>  
+            </div>
+        </div>
+    </div>    
+</section>
+
+<!---------------- Footer ---------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>You can follow us on social media all the links are given below</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/nikhil.dhandole.33/" target="_blank"> <i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/nikhildhandole/" target="_blank"> <i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/nikhild97" target="_blank" > <i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/nikhil-dhandole-21a3ab29a/" target="_blank" > <i class="bi bi-linkedin"></i></a>            
+    </div>
+    <p>Made with <i class="bi bi-heart"></i> by Coding Adda </p>
+</section>
+
+<!-----------Javascript for Toggle Menu----------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-250px";
+    }
+
+</script>
+
+<!-------------- Go to Top button ------------------>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-circle"></i></button>
+<script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+</script>
+</body>
+</html>> 
