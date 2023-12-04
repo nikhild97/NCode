@@ -198,6 +198,11 @@ nav img{
     color: #f44336;
 }
 
+@media(max-width: 700px){
+    .footer{
+        font-size: 20px;
+    }
+}
 /*----------- Goto Top Button ---------------*/
 
 #myBtn {
