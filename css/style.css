@@ -86,7 +86,7 @@ nav img{
     display: none;
 }
 
-@media(max-width: 700px){
+@media(max-width: 700px, max-height: 1000px){
     .text-box h1{
     font-size: 20px;
     }
