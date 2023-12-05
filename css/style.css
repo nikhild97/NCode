@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/a.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/a.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -164,9 +164,9 @@ nav img{
 .footer{
     width: 100%;
     text-align: center;
-    padding: 50px 0;
+    padding: 5px 0;
     
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/a.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/a.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -229,7 +229,7 @@ nav img{
 .sub-header{
     height: 40vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/a.jpg);
+    background-image: linear-gradient(rgba(0,0,00,0.3),rgba(0,0,0,0.3)),url(../images/a.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
