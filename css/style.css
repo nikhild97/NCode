@@ -227,7 +227,7 @@ nav img{
 /*-----------------about us page --------------------*/
 
 .sub-header{
-    height: 40vh;
+    height: 35vh;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,00,0.1),rgba(0,0,0,0.1)),url(../images/a.jpg);
     background-position: center;
@@ -410,3 +410,34 @@ nav img{
     color: #555;
     font-weight: 400;
 }
+
+/*------------------ Course Detais --------------------*/
+
+.sidebar{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sidebar iframe{
+    position: relative;
+}
+
+.li-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 30px 15px 30px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
+.li-btn:hover{
+    border: 1px solid #F44336;
+    background: #F44336;
+    transition: 0.1s;
+    color: #fff;
+}
+
