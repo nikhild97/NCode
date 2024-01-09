@@ -444,7 +444,7 @@ nav img{
     color: #fff;
 }
 
-@media (max-width: 480px){
+@media (max-width: 600px){
     .course-list .li-btn{
         padding: 15px 20px 15px 10px;
     }
