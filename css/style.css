@@ -421,14 +421,17 @@ nav img{
 .sidebar iframe{
     position: relative;
 }
-
-.li-btn{
+.course-list h1{
+    text-align: center;
+    padding: 5px;
+}
+.course-list .li-btn{
     display: inline-block;
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    padding: 15px 30px 15px 30px;
-    font-size: 13px;
+    padding: 13px 30px 13px 30px;
+    font-size: 14px;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -441,3 +444,16 @@ nav img{
     color: #fff;
 }
 
+@media(max-width: 700px){
+    .course-list li a{
+        padding: 15px 20px 15px 10px;
+    }
+    .iframe_a{
+        height: 100%;
+        width: 30%;
+    }
+    .iframe_b{
+        height: 100%;
+        width: 66%;
+    }
+}  
