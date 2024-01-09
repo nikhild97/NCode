@@ -448,11 +448,11 @@ nav img{
     .course-list li a{
         padding: 15px 20px 15px 10px;
     }
-    .iframe_a{
+    .sidebar .iframe_a{
         height: 100%;
         width: 30%;
     }
-    .iframe_b{
+    .sidebar .iframe_b{
         height: 100%;
         width: 66%;
     }
